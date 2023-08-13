@@ -1,0 +1,23 @@
+#!/bin/bash
+
+THis above line is know as shebang where ! is known as bang
+Certainly! A shebang, also known as a hashbang or a pound-bang, is a special character sequence at the beginning of a script file in Unix-like operating systems. It's used to indicate the interpreter that should be used to execute the script. The shebang is followed by the path to the interpreter executable.
+
+Here's a short and crisp breakdown:
+
+Purpose: The shebang specifies the interpreter for running scripts written in various scripting languages, such as Python, Perl, Bash, and more.
+
+Format: The shebang starts with the characters #!, followed by the path to the interpreter executable. For example:
+
+#!/bin/bash for Bash scripts
+#!/usr/bin/python for Python scripts
+
+1. Location: The shebang must be placed on the first line of the script file and is typically followed by a newline character.
+
+2. Execution: When you run a script from the command line, the operating system uses the interpreter specified in the shebang to execute the script's code.
+
+3. Flexibility: Shebangs allow you to write scripts in different languages and ensure they are executed by the appropriate interpreter.
+
+4. Example: For a Python script named myscript.py, the shebang line would be #!/usr/bin/python or #!/usr/bin/env python. For a Bash script named mybashscript.sh, the shebang would be #!/bin/bash.
+
+5. Remember, the shebang is a powerful tool to define the interpreter for your script, making it easier to run your code without needing to explicitly specify the interpreter on the command line each time.
