@@ -1,0 +1,23 @@
+How we can add comments in a script
+
+Bash Script Comments
+
+Comments in Bash scripts are used to add explanatory notes to the code, providing insights for developers and readers. Bash supports two main types of comments:
+
+Single-line Comments:
+Single-line comments begin with the # symbol and extend to the end of the line. They are used for brief explanations within a single line.
+
+Example:
+# This is a single-line comment in Bash
+echo "Hello, World!"
+
+Multi-line Comments:
+While Bash doesn't have a direct multi-line comment syntax, you can achieve the same effect by enclosing your comments within a pair of : (colon) commands, which are essentially no-op commands in Bash.
+
+Example:
+: '
+This is a multi-line comment in Bash.
+It spans across multiple lines.
+It uses the : (colon) command for each line.
+'
+echo "Multi-line comments can be useful for explanations."

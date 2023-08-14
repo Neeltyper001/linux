@@ -1,0 +1,46 @@
+-We are using variables to store or contain some values that we want for our future use
+
+-Variables in Bash are used to store and manipulate data. They are named containers that hold values, such as text strings or numbers.
+
+Syntax:
+
+variable_name=value
+variable_name: A user-defined name for the variable. It must start with a letter or underscore (_), followed by letters, digits, or underscores.
+value: The data you want to store in the variable. It can be a text string or a numerical value.
+
+Examples:
+
+name="Alice"           # Assigns the value "Alice" to the variable "name"
+age=25                 # Assigns the value 25 to the variable "age"
+greeting="Hello, $name"  # Uses the value of the "name" variable within the string
+Variable Naming Rules:
+
+- Variable names are case-sensitive.
+- Variable names should not start with a digit.
+- Use descriptive names to make your code more readable (e.g., user_name instead of un).
+- Avoid using special characters like spaces or punctuation in variable names.
+- Accessing Variable Values:
+To access the value of a variable, prepend the variable name with a dollar sign ($).
+
+Example:
+
+echo "My name is $name and I am $age years old."
+
+Special Variables:
+Bash also has built-in special variables, such as:
+
+$0: The name of the script or shell.
+$1, $2, ...: Positional parameters passed to the script or function.
+$#: The number of positional parameters.
+$?: The exit status of the last executed command.
+
+
+Example:
+
+bash
+Copy code
+echo "Script name: $0"
+echo "First parameter: $1"
+echo "Number of parameters: $#"
+echo "Exit status of last command: $?"
+Using variables in Bash allows you to store and manage data dynamically, making your scripts more flexible and powerful.
