@@ -1,0 +1,2 @@
+Redirecting the error to the output.txt: command not found
+fhrd: command not found

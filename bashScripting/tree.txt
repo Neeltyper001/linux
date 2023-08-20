@@ -1,0 +1,33 @@
+.
+├── bashScripting
+│   ├── printing
+│   │   ├── arithmetic-operations.sh
+│   │   ├── arrays.sh
+│   │   ├── comments.sh
+│   │   ├── comparisonOps.sh
+│   │   ├── conditionals.sh
+│   │   ├── for-csvfile.sh
+│   │   ├── for-loops-file.sh
+│   │   ├── for-loops.sh
+│   │   ├── helloScript.sh
+│   │   ├── hello-world.sh
+│   │   ├── input.sh
+│   │   ├── logicalOps.sh
+│   │   ├── StringOps.sh
+│   │   ├── switch-case.sh
+│   │   ├── until-loops.sh
+│   │   └── variables.sh
+│   ├── sampleBashfile.txt
+│   └── tree.txt
+├── notes
+│   ├── comments.txt
+│   ├── HowScriptsExecuted.txt
+│   ├── print.txt
+│   ├── shebang.txt
+│   └── variable.txt
+└── playground
+    ├── content2.txt
+    ├── content3.csv
+    └── content.txt
+
+4 directories, 26 files
