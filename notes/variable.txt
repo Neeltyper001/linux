@@ -5,9 +5,11 @@
 Syntax:
 
 variable_name=value
-variable_name: A user-defined name for the variable. It must start with a letter or underscore (_), followed by letters, digits, or underscores.
-value: The data you want to store in the variable. It can be a text string or a numerical value.
+where
+- variable_name: A user-defined name for the variable. It must start with a letter or underscore (_), followed by letters, digits, or underscores.
+- value: The data you want to store in the variable. It can be a text string or a numerical value.
 
+readonly var_name = value (for those variable that you want to be constant all the time)
 Examples:
 
 name="Alice"           # Assigns the value "Alice" to the variable "name"

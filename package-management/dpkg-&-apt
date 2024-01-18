@@ -1,0 +1,18 @@
+dpkg :- the packaging software responsible for downloading the packages of softwares from software repositories. It is a low level command
+apt-get :- It is basically a front-end interface (human facing) that interact b/w user and dpkg 
+
+`apt-get` and its successor, `apt`, provide a user-friendly interface for package management in Linux. They simplify the process of installing, upgrading, and removing software by automatically handling dependencies. Here are some user-friendly features:
+
+1. **Dependency Resolution:** `apt` resolves and installs dependencies automatically, saving users from manually managing each dependency.
+
+2. **Package Retrieval:** It fetches packages from repositories, eliminating the need for users to find and download packages manually.
+
+3. **Upgrades:** `apt` can upgrade all installed packages to their latest versions with a single command, streamlining the update process.
+
+4. **Easy Removal:** Uninstalling software is straightforward with commands like `apt-get remove` or `apt remove`.
+
+5. **Search Functionality:** Users can search for packages using `apt search`, making it easy to find software available in the repositories.
+
+6. **Repository Management:** `apt` manages software sources and repositories, allowing users to add or remove sources without delving into complex configurations.
+
+Overall, `apt-get` and `apt` abstract many complexities associated with package management, providing a more user-friendly experience compared to lower-level tools like `dpkg`.
